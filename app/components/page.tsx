@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 
-function Car({ carImage , carName, carPrice, carReviews }) {
+export default function car ({ carImage , carName, carPrice, carReviews }) {
   return (
     <div>
       <Image src={carImage} alt="picture" height={250} width={250}></Image>
@@ -12,4 +12,4 @@ function Car({ carImage , carName, carPrice, carReviews }) {
   );
 }
 
-export default Car;
+
